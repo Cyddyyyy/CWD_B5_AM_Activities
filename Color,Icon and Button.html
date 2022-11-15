@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <title>Color,Button,Icon and FloatingActionButton</title>
+</head>
+<body class="grey darken-4">
+    <nav class="container">
+        <div>
+            <a href="" class="brand-logo white-text">CWD BATCH 5</a>
+        </div>
+    </nav>
+<!--Color, Buttons and Icons-->
+<!--Color-->
+<div class="container">
+    <h2 class="white-text">Color</h2>
+    <nav class="card panel red lighten-3">red lighten-3</nav>
+    <nav class="card panel blue lighten-1">blue lighten-1</nav>
+    <nav class="card panel green lighten-2">green lighten-2</nav>
+</div>
+<!--Buttons-->
+    <!--Raised-->
+    <div class="container">
+        <h2 class="white-text">Raised Button</h2>
+        <a class="waves-effect waves-light btn blue">button</a>
+        <a class="waves-effect waves-light btn blue"><i class="material-icons left">cloud</i>button</a>
+        <a class="waves-effect waves-light btn blue"><i class="material-icons right">cloud</i>button</a>
+    </div>
+    <!--Floating-->
+    <div class="container">
+        <h2 class="white-text">Floating Button</h2>
+        <a class="btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">add</i></a>
+    </div>
+    <!--Floating Action Button-->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+            <i class="large material-icons">mode_edit</i>
+        </a>
+    <ul>
+        <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+        <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+        <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+    </div>
+    <!--Flat-->
+    <div class="container">
+        <h2 class="white-text">Flat Button</h2>
+        <a class="waves-effect waves-blue btn-flat white-text">Button</a>
+    </div>
+    <!--Large-->
+    <div class="container">
+        <h2 class="white-text">Large Button</h2>
+        <a class="waves-effect waves-light btn-large blue">button</a>
+        <a class="waves-effect waves-light btn-large blue"><i class="material-icons left">cloud</i>button</a>
+        <a class="waves-effect waves-light btn-large blue "><i class="material-icons right">cloud</i>button</a>
+    </div>
+    <!--Submit Button-->
+    <div class="container">
+        <h2 class="white-text">Submit Button</h2>
+        <button class="btn waves-effect waves-light blue" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+        </button>
+    </div>
+    <!--Disabled-->
+    <div class="container">
+        <h2 class="white-text">Disabled Button</h2>
+        <a class="btn-large disabled white-text">Button</a>
+        <a class="btn disabled white-text">Button</a>
+        <a class="btn-flat disabled white-text">Button</a>
+        <a class="btn-floating disabled\"><i class="material-icons">add</i></a>
+    </div>
+    
+<!--JavaScript at end of body for optimized loading-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems);
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Side Navigation</title>
+</head>
+<body background="Bgae.png">
+<!--Navigation-->
+<nav class="container transparent">
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <div class="container nav-wrapper">
+            <img src="logo.png" width="75px" height="75px">
+            <a href="#" class="brand-logo"></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html"><i class="material-icons">home</i></a></li>
+            <li><a href="badges.html"><i class="material-icons">work</i></a></li>
+            <li><a href="collapsible.html"><i class="material-icons">assignment_ind</i></a></li>
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Services<i class="material-icons right">arrow_drop_down</i>
+        </ul>
+    </div>
+</div>
+</nav>
+<!--Side Navigation-->
+    <ul id="slide-out" class="sidenav grey">
+        <li><div class="user-view">
+    <div class="background">
+            <img src="2.png">
+    </div>
+            <a href="#user"><img class="circle" src="Picc.jpg"></a>
+            <a href="#name"><span class="white-text name">Cydrick Benamer</span></a>
+            <a href="#email"><span class="white-text email">benamercydrick96@gmail.com</span></a>
+        </div></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="#!"><i class="material-icons">work</i>Works</a></li>
+        <li><a href="#!"><i class="material-icons">assignment_ind</i>About</a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Services<i class="material-icons right">arrow_drop_down</i>
+    </ul>
+
+<!--Dropdown-->
+    <ul id="dropdown1" class="dropdown-content grey">
+        <li><a href="#!" class="white-text">Web Design</a></li>
+        <li><a href="#!" class="white-text">Video Editing</a></li>
+        <li><a href="#!" class="white-text">Graphic Design</a></li>
+    </ul>
+
+<!--Cards-->
+<!--Basic Cards-->
+    <div class="container">
+        <h3 class="white-text">Cards</h3>
+        <h4 class="white-text">Basic Cards</h4>
+    </div>
+        <div class="row container">
+            <div class="col s12 m6">
+            <div class="card grey darken-1">
+                <div class="card-content white-text">
+                <span class="card-title">Bitcoin</span>
+                <blockquote>Bitcoin is a decentralized digital currency that can be transferred on the peer-to-peer bitcoin network. 
+                    Bitcoin transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain.</blockquote>
+                </div>
+                <div class="card-action">
+                <a href="https://en.wikipedia.org/wiki/Bitcoin">For more info</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<!--Image Card-->
+    <div class="container">
+        <h4 class="white-text">Image Cards</h4>
+    </div>
+        <div class="row container">
+            <div class="col s12 m7">
+            <div class="card grey darken-1">
+                <div class="card-image">
+                <img src="bit.jpg">
+                <span class="card-title">Bitcoin</span>
+                </div>
+                <div class="card-content">
+                <blockquote>Bitcoin is a decentralized digital currency that can be transferred on the peer-to-peer bitcoin network. 
+                    Bitcoin transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain.</blockquote>
+                </div>
+                <div class="card-action">
+                <a href="https://en.wikipedia.org/wiki/Bitcoin">For more info</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<!--FABs in Cards-->
+    <div class="container">
+        <h4 class="white-text">FABs in Cards</h4>
+    </div>
+    <div class="row container">
+        <div class="col s12 m6">
+        <div class="card grey darken-1">
+            <div class="card-image">
+            <img src="eth.png">
+            <span class="card-title">Card Title</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+            <blockquote> Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform. Among cryptocurrencies, 
+                ether is second only to bitcoin in market capitalization. Ethereum was conceived in 2013 by programmer Vitalik Buterin. </blockquote>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!--Horizontal Card-->
+    <div class="col s12 m7 container">
+        <h4 class="header white-text">Horizontal Card</h4>
+        <div class="card horizontal">
+        <div class="card-image">
+            <img src="eth.png">
+        </div>
+        <div class="card-stacked">
+            <div class="card-content">
+            <blockquote>Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform. 
+                Among cryptocurrencies, ether is second only to bitcoin in market capitalization. Ethereum was conceived in 2013 by programmer Vitalik Buterin.</blockquote>
+            </div>
+            <div class="card-action">
+            <a href="https://en.wikipedia.org/wiki/Ethereum">For more info</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!--Card Reveal-->
+    <div class="container">
+        <h4 class="white-text">Card Reveal</h4>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="container card-image waves-effect waves-block waves-light">
+            <img class="activator" src="ada.png">
+            </div>
+            <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">CARDANO<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://en.wikipedia.org/wiki/Cardano_(blockchain_platform)">For more info</a></p>
+            </div>
+            <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">CARDANO<i class="material-icons right">close</i></span>
+            <blockquote>Cardano is a public blockchain platform. It is open-source and decentralized, with consensus achieved using proof of stake. It can facilitate peer-to-peer transactions with its internal 
+                cryptocurrency, ADA. Cardano's development began in 2015, led by Ethereum co-founder Charles Hoskinson.</blockquote>
+                <h5>Background</h5>
+            <blockquote>Charles Hoskinson and Jeremy Wood began planning Cardano in 2015, with the platform launching in 2017.Hoskinson had left Ethereum after a dispute with another co-founder, Vitalik Buterin. Hoskinson wanted to accept venture capital and create a company, 
+                while Buterin wanted to keep it as a nonprofit organization. After leaving, Hoskinson co-founded IOHK, a blockchain-engineering company, whose primary business is the development of Cardano, alongside the Cardano Foundation and Emurgo.[10] The platform is named after Italian mathematician Gerolamo Cardano, while the cryptocurrency 
+                itself is named after the English mathematician Ada Lovelace. The Ada sub-unit is the Lovelace; one Ada = 1,000,000 Lovelaces</blockquote>   
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!--Tabs in Cards-->    
+<div class="container">
+        <h4 class="white-text">Tabs in cards</h4>
+    <div class="card">
+        <div class="card-content container">
+        <blockquote>Cryptocurrency is a digital payment system that doesn't rely on banks to verify transactions. It’s a peer-to-peer system that can enable anyone anywhere to send and receive payments. Instead of being physical money carried around and exchanged in the real world, cryptocurrency payments exist purely as digital entries to an online database describing specific transactions. 
+            When you transfer cryptocurrency funds, the transactions are recorded in a public ledger. Cryptocurrency is stored in digital wallets.</blockquote>
+        </div>
+        <div class="card-tabs">
+        <ul class="tabs tabs-fixed-width">
+            <li class="tab"><a class="active" href="#test4">Bitcoin</a></li>
+            <li class="tab"><a class="active" href="#test5">Ethereum</a></li>
+            <li class="tab"><a class="active" href="#test6">Cardano</a></li>
+        </ul>
+        </div>
+        <div class="card-content grey lighten-4">
+            <div id="test4" style="display: block;" class="active">Test 1</div>
+            <div id="test5" class="" style="display: none;">Test 2</div>
+            <div id="test6" style="display: none;" class="">Test 3</div>
+        </div>
+    </div>
+</div>
+    
+<!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        $( document ).ready(function(){
+            $('.sidenav').sidenav();
+            $(".dropdown-trigger").dropdown({ hover: false });
+        });
+    </script>
+</body>
+</html>
